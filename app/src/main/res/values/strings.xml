@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Unite4_KararVeDongu</string>
     <string name="uyg1">Uygulama-1(100 den Büyükse)</string>
-    <string name="uyg2">Uygulama-2()</string>
+    <string name="uyg2">Uygulama-2(Hangisi Büyük veya Eşitse)</string>
     <string name="uyg3">Uygulama-3()</string>
     <string name="uyg4">Uygulama-4()</string>
     <string name="uyg5">Uygulama-5()</string>
