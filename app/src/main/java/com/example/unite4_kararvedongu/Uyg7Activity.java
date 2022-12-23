@@ -11,4 +11,12 @@ public class Uyg7Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg7_layout);
     }
-}
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        for (int i = 1; i <= 100; i++)
+                System.out.println(i);
+            }
+    }
+

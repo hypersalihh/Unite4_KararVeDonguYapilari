@@ -11,4 +11,14 @@ public class Uyg8Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg8_layout);
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        for (int i = 1; i <= 100; i++)
+            if (i%3==0) {
+                System.out.println(i);
+            }
+    }
 }
+
+

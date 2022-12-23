@@ -24,10 +24,11 @@ public class Uyg5Activity extends AppCompatActivity {
         int not1 = Integer.parseInt(edittxtnot1.getText().toString());
         int not2 = Integer.parseInt(edittxtnot2.getText().toString());
         int not3 = Integer.parseInt(edittxtnot3.getText().toString());
-        float ort = (not1+not2+not3);
+        float ort = (not1+not2+not3) / 3;
 
         if (not1>100 || not2>100 || not3>100){
             Toast.makeText(this,"100'den kucuk bir sayı giriniz",Toast.LENGTH_LONG).show();
+            return;
         }
 
         if (ort>=0 && ort<25){
