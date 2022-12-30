@@ -32,6 +32,8 @@
         <activity android:name=".Uyg8Activity"></activity>
         <activity android:name=".Uyg9Activity"></activity>
         <activity android:name=".Uyg10Activity"></activity>
+        <activity android:name=".uyg1_goldsoru"></activity>
+        <activity android:name=".uyg2_goldsoru"></activity>
 
     </application>
 
